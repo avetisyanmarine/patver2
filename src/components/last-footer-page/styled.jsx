@@ -7,7 +7,7 @@ const LastFooterPagePart = styled.div`
 const LastFooterPagePartContext = styled.div`
     font-size: 18px;
     > p {
-        margin-top: 48px;
+        margin-top: 20px;
     }
     div {
         display: flex;
