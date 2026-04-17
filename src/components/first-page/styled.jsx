@@ -24,7 +24,11 @@ const FirstPagePartContext = styled.div`
   .unborder {
     border: 0;
   }
- 
+ .number {
+  h1 {
+    font-size: 60px;
+  }
+ }
   h3 {
     font-size: 40px;
   }
