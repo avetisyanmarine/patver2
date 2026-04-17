@@ -11,7 +11,7 @@ export const FirstPage = () => {
         <FirstPagePartContext>
           <div className="absolute flex items-center justify-center mt-[30px] text-white w-full">
             {/* Օր */}
-            <div className="number px-6 leading-none flex items-center h-full mb-[19px]">
+            <div className="number px-6 leading-none flex items-center h-full mb-[32px]">
               <h1 className="m-0 p-0">26</h1>
             </div>
 
