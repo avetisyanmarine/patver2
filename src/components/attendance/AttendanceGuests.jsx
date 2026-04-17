@@ -6,7 +6,6 @@ const AttendanceGuests = () => {
     familySide: null,
     attending: null,
     guestCount: null,
-    comment: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState({ type: "", text: "" });
@@ -74,7 +73,7 @@ const AttendanceGuests = () => {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbwZHZ3OuSyxg_X4FIGdvVLoAZ-xZhn0t5v0Jss8LTYPMptolJto1m7q6vtFP3qlA-zd/exec",
+        "https://script.google.com/macros/s/AKfycbyiQ2J5R5FfEQOyH3l0KfgSeExo6kxXmtneTUE1L5N5fLJCUKTS7TfjF7dqlDn9Vx0X/exec",
         {
           method: "POST",
           mode: "no-cors",
@@ -86,7 +85,6 @@ const AttendanceGuests = () => {
             familySide: formData.familySide,
             attending: formData.attending,
             guestCount: formData.attending ? formData.guestCount : 0,
-            comment: formData.comment || "",
           }).toString(),
         },
       );
@@ -105,7 +103,6 @@ const AttendanceGuests = () => {
         familySide: null,
         attending: null,
         guestCount: null,
-        comment: "",
       });
       window.scrollTo({
         top: 0,
@@ -133,7 +130,6 @@ const AttendanceGuests = () => {
         </p>
       </div>
 
-      {/* Alert Messages  094875372*/}
       {message.text && (
         <div
           className={`mb-5 sm:mb-6 md:mb-8 p-3 sm:p-4 md:p-5 rounded-lg sm:rounded-xl flex items-start gap-3 sm:gap-4 animate-in fade-in slide-in-from-top-2 duration-300 text-sm sm:text-base ${

@@ -8,6 +8,11 @@ const SecondPagePart = styled.div`
   h2 {
     font-size: 30px;
   }
+  .save {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
 `;
 
 const GridDiv = styled(Flexible)`

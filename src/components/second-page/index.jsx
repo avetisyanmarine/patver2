@@ -2,11 +2,11 @@ import { SecondPagePart, GridDiv } from "./styled";
 import { Container, Flexible } from "../../GlobalStyle";
 import { useEffect, useState } from "react";
 import Photo2 from "../../assets/image/savethedate.png";
-import BlockImage from "../../assets/image/blockimage.jpg";
 import PhotoF1 from "../../assets/image/photof1.jpg";
 import PhotoGroup1 from "../../assets/image/groupphoto1.jpg";
 import PhotoGroup2 from "../../assets/image/groupphoto2.jpg";
 import PhotoGroup3 from "../../assets/image/groupphoto3.jpg";
+import PhotoGroup4 from "../../assets/image/groupphoto4.jpg";
 import LineAes from "../../assets/image/lineaes.png";
 import { ThirdPagePartCalendar } from "../third-page/styled";
 
@@ -82,7 +82,7 @@ export const SecondPage = () => {
         </div>
       </Container>
       <Container>
-        <div className="flex h-[100vh] my-11 gap-[20px]">
+        <div className="flex h-[100vh] my-11 gap-[20px] save">
           <div>
             <img src={Photo2} className="h-[100vh]" />
           </div>
@@ -90,7 +90,7 @@ export const SecondPage = () => {
             <img src={PhotoGroup1} alt="" className="h-1/4 object-cover" />
             <img src={PhotoGroup2} alt="" className="h-1/4 object-cover" />
             <img src={PhotoGroup3} alt="" className="h-1/4 object-cover" />
-            <img src={PhotoGroup1} alt="" className="h-1/4 object-cover" />
+            <img src={PhotoGroup4} alt="" className="h-1/4 object-cover" />
           </div>
         </div>
         <div className="mt-10 mb-7">

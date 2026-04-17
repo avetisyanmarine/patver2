@@ -4,8 +4,7 @@ import { ForthPagePart, ForthPagePartContext } from "./styled";
 import Church from "../../assets/image/church.jpg";
 import Restaurant from "../../assets/image/restaurant.jpg";
 import HeartLine from "../../assets/image/heartline.png";
-import Photo3 from "../../assets/image/examp2.jpg";
-import Bant from "../../assets/image/bant.png";
+import Photo1 from "../../assets/image/photo1.jpg";
 
 export const ForthPage = () => {
   return (
@@ -25,7 +24,7 @@ export const ForthPage = () => {
         </ForthPagePartContext>
         <div className="relative mt-10">
           <img
-            src={Photo3}
+            src={Photo1}
             alt="Restaurant"
             className="w-full rounded-[15px] grayscale contrast-125 brightness-105"
           />
