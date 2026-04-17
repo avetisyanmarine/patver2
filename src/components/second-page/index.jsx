@@ -88,8 +88,8 @@ export const SecondPage = () => {
           </div>
           <div className="flex flex-col gap-2">
             <img src={PhotoGroup1} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
-            <img src={PhotoGroup2} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
             <img src={PhotoGroup4} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
+            <img src={PhotoGroup2} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
           </div>
         </div>
         <div className="mt-10 mb-7">
