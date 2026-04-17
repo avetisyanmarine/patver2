@@ -21,13 +21,10 @@ const FirstPagePartContext = styled.div`
   width: 100%;
   top: 0;
   height: 100%;
-  > h1 {
-    position: absolute;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+  .unborder {
+    border: 0;
   }
+ 
   h3 {
     font-size: 40px;
   }
@@ -37,7 +34,11 @@ const FirstPagePartContext = styled.div`
     justify-content: end;
     align-items: center;
     gap: 10px;
-    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%);
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 0%,
+      transparent 100%
+    );
     color: #fff;
     text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     height: 100vh;
