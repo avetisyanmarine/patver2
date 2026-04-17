@@ -87,10 +87,9 @@ export const SecondPage = () => {
             <img src={Photo2} className="h-[100vh]" />
           </div>
           <div className="flex flex-col gap-2">
-            <img src={PhotoGroup1} alt="" className="h-1/4 object-cover grayscale brightness-105 contrast-100" />
-            <img src={PhotoGroup2} alt="" className="h-1/4 object-cover grayscale brightness-105 contrast-100" />
-            <img src={PhotoGroup3} alt="" className="h-1/4 object-cover grayscale brightness-105 contrast-100" />
-            <img src={PhotoGroup4} alt="" className="h-1/4 object-cover grayscale brightness-105 contrast-100" />
+            <img src={PhotoGroup1} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
+            <img src={PhotoGroup2} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
+            <img src={PhotoGroup4} alt="" className="h-1/3 object-cover grayscale brightness-105 contrast-100" />
           </div>
         </div>
         <div className="mt-10 mb-7">

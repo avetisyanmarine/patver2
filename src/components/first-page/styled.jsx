@@ -21,6 +21,13 @@ const FirstPagePartContext = styled.div`
   width: 100%;
   top: 0;
   height: 100%;
+  > h1 {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   h3 {
     font-size: 40px;
   }

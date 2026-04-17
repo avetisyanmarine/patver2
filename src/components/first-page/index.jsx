@@ -9,6 +9,7 @@ export const FirstPage = () => {
       <img src={MainPhoto} />
       <Container>
         <FirstPagePartContext>
+          <h1>26.06.2026</h1>
           <div className="couples">
             <h3>Դավիթ</h3>
             <img src={Srtik} alt="Heartline" />
